@@ -50,7 +50,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Sep 14, 2026 07:56:06 AM</span>
+			<span class='label blue darken-3 suite-start-time'>Sep 14, 2026 01:14:01 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -120,12 +120,12 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='$25%'>
-                    <span class='strong'>1</span> features passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='$75%'>
+                    <span class='strong'>3</span> features passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='75%'>
-                    3</span> features failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='25%'>
+                    1</span> features failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped
                 </div>
@@ -138,12 +138,12 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='20%'>
-                    <span class='strong'>1</span> scenarios passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='60%'>
+                    <span class='strong'>3</span> scenarios passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='80%'>
-                    4</span> scenarios failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='40%'>
+                    2</span> scenarios failed, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -158,14 +158,14 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='72%'>
-                    <span class='strong'>13</span> steps passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='88%'>
+                    <span class='strong'>16</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='22%'>
-                    4</span> steps failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='5%'>
-                    1</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='11%'>
+                    2</span> steps failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
+                    0</span> skipped, 
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
                     0</span> others
                 </div>
@@ -189,7 +189,7 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Dele bookings endpoint</span>
-						<span class='test-time'>Sep 14, 2026 07:56:07 AM</span>
+						<span class='test-time'>Sep 14, 2026 01:14:02 PM</span>
 						<span class='test-status right fail'>Fail</span>
 					</div>
 					<div class='test-content hide'>
@@ -202,7 +202,7 @@
 
 <div class='scenario node' test-id='2' status='fail'>
 
-	<span class='duration right label'>00 00 05.436</span>
+	<span class='duration right label'>00 00 06.205</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Delete booking should delete a booking</div>
 	</div>
@@ -240,14 +240,14 @@ Expected status code <200> but was <201>.
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
 	at stepDefinitions.BookingSteps.verifyStatusCode(BookingSteps.java:50)
-	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/Finalv1/RestfulBooker-Cucumber-5testsv2/restassured-demo5/src/test/resources/DeleteBokking.feature:9)
+	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/FINAL/Finalv2/Laime_restassured-demo5/src/test/resources/DeleteBokking.feature:9)
 </textarea>
 		</li>
 	</ul>
 </div>
 <div class='scenario node' test-id='6' status='fail'>
 
-	<span class='duration right label'>00 00 01.424</span>
+	<span class='duration right label'>00 00 01.792</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Delete booking should return 404 when provided id does not exist</div>
 	</div>
@@ -285,18 +285,18 @@ Expected status code <404> but was <405>.
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
 	at stepDefinitions.BookingSteps.verifyStatusCode(BookingSteps.java:50)
-	at ✽.I verify that the status code is 404(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/Finalv1/RestfulBooker-Cucumber-5testsv2/restassured-demo5/src/test/resources/DeleteBokking.feature:14)
+	at ✽.I verify that the status code is 404(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/FINAL/Finalv2/Laime_restassured-demo5/src/test/resources/DeleteBokking.feature:14)
 </textarea>
 		</li>
 	</ul>
 </div>
 					</div>
 				</li>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='10'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>GET Booking endpoints</span>
-						<span class='test-time'>Sep 14, 2026 07:56:14 AM</span>
-						<span class='test-status right fail'>Fail</span>
+						<span class='test-time'>Sep 14, 2026 01:14:10 PM</span>
+						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -306,18 +306,18 @@ Expected status code <404> but was <405>.
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 
-<div class='scenario node' test-id='11' status='fail'>
+<div class='scenario node' test-id='11' status='pass'>
 
-	<span class='duration right label'>00 00 00.803</span>
+	<span class='duration right label'>00 00 01.091</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Get /booking/{id} should return an specific booking</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Get /booking/{id} should return an specific booking</div>
 	</div>
 	
 	
 	
 	<ul class='steps'>
 		<li test-id='12' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(stepDefinitions.BookingSteps.getBooking(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given I perform a GET call to the bookings endpoint with id "119"</div>
+			<div class="step-name" title="(stepDefinitions.BookingSteps.getBooking(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given I perform a GET call to the bookings endpoint with id "13"</div>
 
 
 		</li>
@@ -338,29 +338,11 @@ Expected status code <404> but was <405>.
 
 					<div class="node-step"><table class='markup-table table '><tr><td>checkin</td><td>checkout</td></tr></table></div>
 		</li>
-		<li test-id='16' class='node and Fail' status='Fail'>
-			<div class="step-name" title="(stepDefinitions.BookingSteps.verifyKeyValues(io.cucumber.datatable.DataTable))"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>And I verify that the following key values are in the response</div>
+		<li test-id='16' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(stepDefinitions.BookingSteps.verifyKeyValues(io.cucumber.datatable.DataTable))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And I verify that the following key values are in the response</div>
 
 
-					<div class="node-step"><table class='markup-table table '><tr><td>firstname</td><td>lastname</td></tr><tr><td>John</td><td>Smith</td></tr></table></div>
-					<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
-JSON path firstname doesn't match.
-Expected: John
-  Actual: Josh
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:274)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.selectMethod(IndyInterface.java:373)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:121)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
-	at stepDefinitions.BookingSteps.verifyKeyValues(BookingSteps.java:56)
-	at ✽.I verify that the following key values are in the response(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/Finalv1/RestfulBooker-Cucumber-5testsv2/restassured-demo5/src/test/resources/GetBookings.feature:12)
-</textarea>
+					<div class="node-step"><table class='markup-table table '><tr><td>firstname</td><td>lastname</td></tr><tr><td>Nikolas</td><td>Kharma</td></tr></table></div>
 		</li>
 	</ul>
 </div>
@@ -369,7 +351,7 @@ Expected: John
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='17'>
 					<div class='test-heading'>
 						<span class='test-name'>POST Booking endpoints</span>
-						<span class='test-time'>Sep 14, 2026 07:56:14 AM</span>
+						<span class='test-time'>Sep 14, 2026 01:14:12 PM</span>
 						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -382,7 +364,7 @@ Expected: John
 
 <div class='scenario node' test-id='18' status='pass'>
 
-	<span class='duration right label'>00 00 01.080</span>
+	<span class='duration right label'>00 00 01.618</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Post /booking should create a new booking</div>
 	</div>
@@ -394,7 +376,7 @@ Expected: John
 			<div class="step-name" title="(stepDefinitions.BookingSteps.postBooking(io.cucumber.datatable.DataTable))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given I perform a POST call to the bookings endpoint with the following data</div>
 
 
-					<div class="node-step"><table class='markup-table table '><tr><td>Jorge</td><td>Lopez</td><td>4500</td><td>true</td><td>2026-10-01</td><td>2026-10-11</td><td>Wifi</td></tr></table></div>
+					<div class="node-step"><table class='markup-table table '><tr><td>Jorge</td><td>Lopez</td><td>4500</td><td>true</td><td>2026-10-09</td><td>2026-10-11</td><td>Wifi</td></tr></table></div>
 		</li>
 		<li test-id='20' class='node then Pass' status='Pass'>
 			<div class="step-name" title="(stepDefinitions.BookingSteps.verifyStatusCode(int))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then I verify that the status code is 200</div>
@@ -411,11 +393,11 @@ Expected: John
 </div>
 					</div>
 				</li>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='22'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='22'>
 					<div class='test-heading'>
 						<span class='test-name'>PUT Booking endpoint</span>
-						<span class='test-time'>Sep 14, 2026 07:56:16 AM</span>
-						<span class='test-status right fail'>Fail</span>
+						<span class='test-time'>Sep 14, 2026 01:14:13 PM</span>
+						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -425,11 +407,11 @@ Expected: John
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
 
-<div class='scenario node' test-id='23' status='fail'>
+<div class='scenario node' test-id='23' status='pass'>
 
-	<span class='duration right label'>00 00 01.364</span>
+	<span class='duration right label'>00 00 01.896</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span> Scenario: Put /booking/{id} should update an existing booking</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Put /booking/{id} should update an existing booking</div>
 	</div>
 	
 	
@@ -441,37 +423,21 @@ Expected: John
 
 		</li>
 		<li test-id='25' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(stepDefinitions.BookingSteps.putBooking(java.lang.String,io.cucumber.datatable.DataTable))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given I perform a PUT call to the booking endpoint with id "1" and the following data</div>
+			<div class="step-name" title="(stepDefinitions.BookingSteps.putBooking(java.lang.String,io.cucumber.datatable.DataTable))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given I perform a PUT call to the booking endpoint with id "13" and the following data</div>
 
 
 					<div class="node-step"><table class='markup-table table '><tr><td>Jane</td><td>Smith</td><td>6000</td><td>false</td><td>2026-11-01</td><td>2026-11-10</td><td>Breakfast</td></tr></table></div>
 		</li>
-		<li test-id='26' class='node then Fail' status='Fail'>
-			<div class="step-name" title="(stepDefinitions.BookingSteps.verifyStatusCode(int))"><span class='status fail' title='Fail'><i class='material-icons'>cancel</i></span>Then I verify that the status code is 200</div>
+		<li test-id='26' class='node then Pass' status='Pass'>
+			<div class="step-name" title="(stepDefinitions.BookingSteps.verifyStatusCode(int))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then I verify that the status code is 200</div>
 
 
-					<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <418>.
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at stepDefinitions.BookingSteps.verifyStatusCode(BookingSteps.java:50)
-	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/Finalv1/RestfulBooker-Cucumber-5testsv2/restassured-demo5/src/test/resources/PutBookings.feature:9)
-</textarea>
 		</li>
-		<li test-id='27' class='node and Skip' status='Skip'>
-			<div class="step-name" title="(stepDefinitions.BookingSteps.verifyKeyValues(io.cucumber.datatable.DataTable))"><span class='status skip' title='Skip'><i class='material-icons'>redo</i></span>And I verify that the following key values are in the response</div>
+		<li test-id='27' class='node and Pass' status='Pass'>
+			<div class="step-name" title="(stepDefinitions.BookingSteps.verifyKeyValues(io.cucumber.datatable.DataTable))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And I verify that the following key values are in the response</div>
 
 
 					<div class="node-step"><table class='markup-table table '><tr><td>firstname</td><td>lastname</td></tr><tr><td>Jane</td><td>Smith</td></tr></table></div>
-					<div class="node-step">Step skipped</div>
 		</li>
 	</ul>
 </div>
@@ -541,12 +507,12 @@ Expected status code <200> but was <418>.
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 14, 2026 07:56:07 AM</td>
+										<td>Sep 14, 2026 01:14:02 PM</td>
 										<td class='linked' test-id='2'>Delete booking should delete a booking</td>
 										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
 									<tr>
-										<td>Sep 14, 2026 07:56:12 AM</td>
+										<td>Sep 14, 2026 01:14:09 PM</td>
 										<td class='linked' test-id='6'>Delete booking should return 404 when provided id does not exist</td>
 										<td><span class='test-status Fail'>Fail</span></td>
 									</tr>
@@ -585,7 +551,7 @@ Expected status code <200> but was <418>.
 				<li class='exception displayed active'>
 					<div class='exception-heading'>
 						<span class='exception-name'>java.lang.AssertionError</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>4</span></span>
+						<span class='exception-count right'><span class='label red lighten-1 white-text'>2</span></span>
 					</div>
 					<div class='exception-content hide'>
 						<div class='exception-tests'>
@@ -599,7 +565,7 @@ Expected status code <200> but was <418>.
 								</thead>
 								<tbody>
 									<tr>
-										<td>Sep 14, 2026 07:56:12 AM</td>
+										<td>Sep 14, 2026 01:14:08 PM</td>
 										<td class='linked' test-id='5'>Then I verify that the status code is 200</td>
 										<td>
 											<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
@@ -615,12 +581,12 @@ Expected status code <200> but was <201>.
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
 	at stepDefinitions.BookingSteps.verifyStatusCode(BookingSteps.java:50)
-	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/Finalv1/RestfulBooker-Cucumber-5testsv2/restassured-demo5/src/test/resources/DeleteBokking.feature:9)
+	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/FINAL/Finalv2/Laime_restassured-demo5/src/test/resources/DeleteBokking.feature:9)
 </textarea>
 										</td>
 									</tr>
 									<tr>
-										<td>Sep 14, 2026 07:56:14 AM</td>
+										<td>Sep 14, 2026 01:14:10 PM</td>
 										<td class='linked' test-id='9'>Then I verify that the status code is 404</td>
 										<td>
 											<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
@@ -636,49 +602,7 @@ Expected status code <200> but was <201>.
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
 	at stepDefinitions.BookingSteps.verifyStatusCode(BookingSteps.java:50)
-	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/Finalv1/RestfulBooker-Cucumber-5testsv2/restassured-demo5/src/test/resources/DeleteBokking.feature:9)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Sep 14, 2026 07:56:14 AM</td>
-										<td class='linked' test-id='16'>And I verify that the following key values are in the response</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <201>.
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at stepDefinitions.BookingSteps.verifyStatusCode(BookingSteps.java:50)
-	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/Finalv1/RestfulBooker-Cucumber-5testsv2/restassured-demo5/src/test/resources/DeleteBokking.feature:9)
-</textarea>
-										</td>
-									</tr>
-									<tr>
-										<td>Sep 14, 2026 07:56:17 AM</td>
-										<td class='linked' test-id='26'>Then I verify that the status code is 200</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError: 1 expectation failed.
-Expected status code <200> but was <201>.
-
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:516)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:714)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:139)
-	at org.codehaus.groovy.vmplugin.v8.IndyInterface.fromCache(IndyInterface.java:344)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:147)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at stepDefinitions.BookingSteps.verifyStatusCode(BookingSteps.java:50)
-	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/Finalv1/RestfulBooker-Cucumber-5testsv2/restassured-demo5/src/test/resources/DeleteBokking.feature:9)
+	at ✽.I verify that the status code is 200(file:///C:/UPB%20TUF/Certi%20II/3rd%20Midterm/FINAL/Finalv2/Laime_restassured-demo5/src/test/resources/DeleteBokking.feature:9)
 </textarea>
 										</td>
 									</tr>
@@ -722,19 +646,19 @@ Expected status code <200> but was <201>.
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 14, 2026 07:56:06 AM</div>
+					<div class='panel-lead'>Sep 14, 2026 01:14:01 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 14, 2026 07:56:17 AM</div>
+			 		<div class='panel-lead'>Sep 14, 2026 01:14:15 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 00 11.109</div>
+					<div class='panel-lead'>00 00 13.595</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -770,34 +694,34 @@ Expected status code <200> but was <201>.
 		<script>
 			var statusGroup = {
                 parentCount: 4,
-				passParent: 1,
-				failParent: 3,
+				passParent: 3,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
 				childCount: 5,
-				passChild: 1,
-				failChild: 4,
+				passChild: 3,
+				failChild: 2,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				grandChildCount: 18,
-				passGrandChild: 13,
-				failGrandChild: 4,
+				passGrandChild: 16,
+				failGrandChild: 2,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 1,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 			};
 			</script>
 		
 		<script>
 			var timeline = {
-			        "Dele bookings endpoint":6.879,"GET Booking endpoints":0.803,"POST Booking endpoints":1.08,"PUT Booking endpoint":1.364
+			        "Dele bookings endpoint":8.052,"GET Booking endpoints":1.091,"POST Booking endpoints":1.618,"PUT Booking endpoint":1.896
 			};
 		</script>
 		
